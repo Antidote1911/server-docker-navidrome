@@ -9,6 +9,7 @@ services:
     environment:
       ND_LOGLEVEL: info  
       ND_SESSIONTIMEOUT: 9000h
+      ND_SCANSCHEDULE: 0
       # ND_BASEURL: ""
       ND_CONFIGFILE: /data/navidrome.toml
     volumes:
