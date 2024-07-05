@@ -12,7 +12,7 @@ services:
       ND_SCANSCHEDULE: 0
       ND_DEVACTIVITYPANEL: false
       # ND_BASEURL: ""
-      ND_CONFIGFILE: /navidrome-config/navidrome.toml
+      ND_CONFIGFILE: /data/navidrome.toml
     volumes:
       # - "/mnt/Partage/Logiciels/navidrome/data:/data"
       - "/navidrome-config:/data:rw"
