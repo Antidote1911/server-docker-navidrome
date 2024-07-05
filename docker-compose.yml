@@ -14,7 +14,8 @@ services:
       # ND_BASEURL: ""
       ND_CONFIGFILE: /data/navidrome.toml
     volumes:
-      - "/mnt/Partage/Logiciels/navidrome/data:/data"
+      # - "/mnt/Partage/Logiciels/navidrome/data:/data"
+      - "/navidrome-config:/data:rw"
       - "/mnt/Partage/Musiques:/music:ro"
       - '/mnt/Partage/Musiques/playlists:/music/playlists:ro'
     env_file: navidrome.env
